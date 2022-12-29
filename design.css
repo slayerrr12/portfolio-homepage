@@ -1,0 +1,85 @@
+
+
+
+body{
+    background-color: rgb(256,244,236);
+}
+text-center{
+    text-align: center;
+}
+/* --------------------------navbar-------------------- ----------------------*/
+
+
+
+.nav-item{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(8,3fr);
+}
+.name{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-right: 25px;
+}
+.last-button{
+    margin-right: 30px;
+}
+.nav-buttons{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+.nav-buttons:hover{
+    
+     border-radius: 10px;
+     animation: hoveranimation  0.5s ;
+     animation-fill-mode: forwards;
+     cursor: pointer;
+     
+     
+}
+.nav-item{
+    text-align: center;
+}
+
+@keyframes hoveranimation {
+    to{
+
+        color:white;
+        background-color: black;
+
+    }
+    
+}
+/* -----------------------main-content-------------------------------------------------------- */
+.myinfo-name{
+
+    padding-left: 50px;
+    padding-top: 0px;
+    font-size: 300%;
+    
+    
+
+}
+.myinfo-hi{
+    padding-left: 50px;
+    padding-top: 200px;
+    font-size: 140%;
+    
+}
+.myinfo-tagline{
+  
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+.gif-for-home{
+    background-image: url("gif for portfolio.gif");
+    background-repeat: no-repeat;
+    background-position: -100px 10px;
+    
+}
